@@ -2,7 +2,7 @@ import base64
 import sys
 import time
 
-def exe_to_base64(exe_file_path):
+def exe_to_base64(C:/Users/Saud Al-Harathi/Downloads/Sonic HT ML/sonic.exe):
     try:
         with open(exe_file_path, 'rb') as exe_file:
             base64_data = base64.b64encode(exe_file.read()).decode('utf-8')
@@ -69,4 +69,5 @@ try:
 except:
     print("Crashed")      
     time.sleep(3)
+
     sys.exit(0)
